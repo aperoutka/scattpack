@@ -14,7 +14,7 @@ class Q0StaticCalculator:
                 mixture: MixtureData,
                 T: float,
                 hessian: NDArray[np.float64] | None = None,
-                isothermal_compressiblity: NDArray[np.float64] | None = None,
+                isothermal_compressibility: NDArray[np.float64] | None = None,
         ):
             self.mixture = mixture
             self.T = T
@@ -22,8 +22,8 @@ class Q0StaticCalculator:
                   hessian if hessian is not None 
                   else np.zeros(self.mixture.mol_fr.shape[0])
             )
-            self.isothermal_compressiblity = (
-                isothermal_compressiblity if isothermal_compressiblity is not None 
+            self.isothermal_compressibility = (
+                isothermal_compressibility if isothermal_compressibility is not None 
                 else np.zeros(self.mixture.mol_fr.shape[0])
             )
 
