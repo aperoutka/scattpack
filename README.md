@@ -8,6 +8,7 @@ ScattPack is a contributor‑friendly, extensible library for calculating **scat
 git clone https://github.com/aperoutka/scattpack.git
 cd scattpack
 pip install .
+```
 
 ## Example
 
