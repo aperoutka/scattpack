@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scattpack"
+version = "0.0.1"
+authors = [{name = "Allison Peroutka"},]
+description = "a python package for scattering calculations"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+Homepage = "https://github.com/aperoutka/scattpack"
+
